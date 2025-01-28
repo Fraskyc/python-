@@ -1,0 +1,10 @@
+from tkinter import *
+okno = Tk()
+w = Canvas(okno, width= 1000, height=500)
+w.pack()
+w.create_rectangle(5,5, 1000, 500)
+w.create_line(200,0,200, 500 )
+w.create_line(400,0,400, 500 )
+w.create_line(600,0,600, 500 )
+w.create_line(800,0,800, 500 )
+mainloop()
